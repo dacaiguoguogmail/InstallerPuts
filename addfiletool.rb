@@ -28,7 +28,12 @@ class AddFileTool
     # 找到build_phase
     build_phase = target.build_phases.find { |e| e.is_a?(Xcodeproj::Project::Object::PBXSourcesBuildPhase)}
     # 在build_phase里添加文件的同时，把文件加到对应的group里面
-    build_phase.add_file_reference(to_add_group.new_reference(file_path))
+    ardd = to_add_group.new_reference(file_path)
+    # build file 去重，如果有，先移除再添加
+    if build_phase.files_references.include?(ardd)
+      build_phase.remove_file_reference(ardd)
+    end
+    build_phase.add_file_reference(ardd, true)
   end
 end
 
