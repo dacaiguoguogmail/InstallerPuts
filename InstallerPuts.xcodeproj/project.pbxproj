@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31526042B4F425527B72E89C /* installer2.yaml in Sources */ = {isa = PBXBuildFile; fileRef = DD97C0FE15817A1B0B7A8E47 /* installer2.yaml */; };
+		2AB207A9A5A450423C27C44A /* installer2.yaml in Sources */ = {isa = PBXBuildFile; fileRef = 3C2DF4E97F5038BEC11C9854 /* installer2.yaml */; };
 		9DB3847F1F068B0700F93DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3847E1F068B0700F93DD8 /* main.m */; };
 		9DB384821F068B0700F93DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB384811F068B0700F93DD8 /* AppDelegate.m */; };
 		9DB384851F068B0700F93DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB384841F068B0700F93DD8 /* ViewController.m */; };
@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C2DF4E97F5038BEC11C9854 /* installer2.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer2.yaml; path = ../installer2.yaml; sourceTree = "<group>"; };
 		40D3CFC56E29B61C54D31B0D /* installer.methods */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = installer.methods; path = ../installer.methods; sourceTree = "<group>"; };
 		480A13BCB2721851C607F3F2 /* Pods-InstallerPuts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallerPuts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstallerPuts/Pods-InstallerPuts.debug.xcconfig"; sourceTree = "<group>"; };
 		873B75BA46A842CB0BAF8405 /* Pods_InstallerPuts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstallerPuts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,7 +35,7 @@
 		9DB3848C1F068B0700F93DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB3848E1F068B0700F93DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6C27C5D8125162E708CF163 /* installer.yaml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = installer.yaml; path = ../installer.yaml; sourceTree = "<group>"; };
-		DD97C0FE15817A1B0B7A8E47 /* installer2.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer2.yaml; path = ../installer2.yaml; sourceTree = "<group>"; };
+		FBAA3B906428C40B333B42D7 /* installer3.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer3.yaml; path = ../installer3.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +115,8 @@
 				9DB384841F068B0700F93DD8 /* ViewController.m */,
 				40D3CFC56E29B61C54D31B0D /* installer.methods */,
 				A6C27C5D8125162E708CF163 /* installer.yaml */,
-				DD97C0FE15817A1B0B7A8E47 /* installer2.yaml */,
+				FBAA3B906428C40B333B42D7 /* installer3.yaml */,
+				3C2DF4E97F5038BEC11C9854 /* installer2.yaml */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -246,7 +248,7 @@
 				9DB384821F068B0700F93DD8 /* AppDelegate.m in Sources */,
 				9DB3847F1F068B0700F93DD8 /* main.m in Sources */,
 				AC83F24EE149EEA4090BBC5E /* installer.yaml in Sources */,
-				31526042B4F425527B72E89C /* installer2.yaml in Sources */,
+				2AB207A9A5A450423C27C44A /* installer2.yaml in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
