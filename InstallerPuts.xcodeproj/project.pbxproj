@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D49DC9DAD235F63F897A8C0 /* installer2.yaml in Sources */ = {isa = PBXBuildFile; fileRef = 489C233349C26A67CC033494 /* installer2.yaml */; };
+		4594A57848F90EF503208B7D /* installer.yaml in Sources */ = {isa = PBXBuildFile; fileRef = 16D550916E7D0C37A3887844 /* installer.yaml */; };
+		783E43276A7D7250B13B2D35 /* installer2.yaml in Sources */ = {isa = PBXBuildFile; fileRef = B40D6F0F8C48036D933CD47A /* installer2.yaml */; };
+		917BA4A3B7F760CF28A067DB /* installer2.yaml in Sources */ = {isa = PBXBuildFile; fileRef = 4D75612B18F65E9128EFC596 /* installer2.yaml */; };
 		9DB3847F1F068B0700F93DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3847E1F068B0700F93DD8 /* main.m */; };
 		9DB384821F068B0700F93DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB384811F068B0700F93DD8 /* AppDelegate.m */; };
 		9DB384851F068B0700F93DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB384841F068B0700F93DD8 /* ViewController.m */; };
 		9DB384881F068B0700F93DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB384861F068B0700F93DD8 /* Main.storyboard */; };
 		9DB3848A1F068B0700F93DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB384891F068B0700F93DD8 /* Assets.xcassets */; };
 		9DB3848D1F068B0700F93DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB3848B1F068B0700F93DD8 /* LaunchScreen.storyboard */; };
+		AC83F24EE149EEA4090BBC5E /* installer.yaml in Sources */ = {isa = PBXBuildFile; fileRef = A6C27C5D8125162E708CF163 /* installer.yaml */; };
 		E8AD336426A9A4F95CA92A34 /* Pods_InstallerPuts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B75BA46A842CB0BAF8405 /* Pods_InstallerPuts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16D550916E7D0C37A3887844 /* installer.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer.yaml; path = ../installer.yaml; sourceTree = "<group>"; };
+		40D3CFC56E29B61C54D31B0D /* installer.methods */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = installer.methods; path = ../installer.methods; sourceTree = "<group>"; };
 		480A13BCB2721851C607F3F2 /* Pods-InstallerPuts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallerPuts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstallerPuts/Pods-InstallerPuts.debug.xcconfig"; sourceTree = "<group>"; };
-		7394D5963FB13E98D340FA2D /* installer.methods */ = {isa = PBXFileReference; includeInIndex = 1; name = installer.methods; path = ../installer.methods; sourceTree = "<group>"; };
+		489C233349C26A67CC033494 /* installer2.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer2.yaml; path = ../installer2.yaml; sourceTree = "<group>"; };
+		4D75612B18F65E9128EFC596 /* installer2.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer2.yaml; path = ../installer2.yaml; sourceTree = "<group>"; };
 		873B75BA46A842CB0BAF8405 /* Pods_InstallerPuts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstallerPuts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCC12148B33A8DDBDF97B30 /* Pods-InstallerPuts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallerPuts.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstallerPuts/Pods-InstallerPuts.release.xcconfig"; sourceTree = "<group>"; };
 		9DB3847A1F068B0700F93DD8 /* InstallerPuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstallerPuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +39,8 @@
 		9DB384891F068B0700F93DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DB3848C1F068B0700F93DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB3848E1F068B0700F93DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C27C5D8125162E708CF163 /* installer.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer.yaml; path = ../installer.yaml; sourceTree = "<group>"; };
+		B40D6F0F8C48036D933CD47A /* installer2.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer2.yaml; path = ../installer2.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +118,9 @@
 			children = (
 				9DB384831F068B0700F93DD8 /* ViewController.h */,
 				9DB384841F068B0700F93DD8 /* ViewController.m */,
-				7394D5963FB13E98D340FA2D /* installer.methods */,
+				40D3CFC56E29B61C54D31B0D /* installer.methods */,
+				A6C27C5D8125162E708CF163 /* installer.yaml */,
+				4D75612B18F65E9128EFC596 /* installer2.yaml */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -239,6 +251,11 @@
 				9DB384851F068B0700F93DD8 /* ViewController.m in Sources */,
 				9DB384821F068B0700F93DD8 /* AppDelegate.m in Sources */,
 				9DB3847F1F068B0700F93DD8 /* main.m in Sources */,
+				4594A57848F90EF503208B7D /* installer.yaml in Sources */,
+				AC83F24EE149EEA4090BBC5E /* installer.yaml in Sources */,
+				783E43276A7D7250B13B2D35 /* installer2.yaml in Sources */,
+				0D49DC9DAD235F63F897A8C0 /* installer2.yaml in Sources */,
+				917BA4A3B7F760CF28A067DB /* installer2.yaml in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
