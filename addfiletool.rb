@@ -47,9 +47,10 @@ class AddFileTool
     # 在build_phase里添加文件的同时，把文件加到对应的group里面
     ardd = to_add_group.new_reference(file_path)
     # build file 去重，如果有，先移除再添加
-    if build_phase.files_references.include?(ardd)
-      build_phase.remove_file_reference(ardd)
-    end
+    aready_files = build_phase.files_references.select { |e| e.real_path.to_s == file_path}
+    aready_files.each { |e| 
+        build_phase.remove_file_reference(e)
+      }
     build_phase.add_file_reference(ardd, true)
   end
 
@@ -72,7 +73,7 @@ class AddFileTool
     ardd = to_add_group.new_reference(file_path)
     # # # build file 去重，如果有，先移除再添加
     if resources_build_phase.files_references.include?(ardd)
-      puts 'to remove'
+      puts 'to remove resources'
       resources_build_phase.remove_file_reference(ardd)
     end
     resources_build_phase.add_file_reference(ardd, true)
@@ -86,7 +87,7 @@ to_add_build_path = '/Users/sunyanguo/Documents/gitplace/InstallerPuts/installer
 to_add_copy_path = '/Users/sunyanguo/Documents/gitplace/InstallerPuts/shan.png'
 # loger.add_file(to_add_path, 'VC')
 loger.add_build_file(to_add_build_path, 'VC', 'InstallerPuts')
-# loger.add_copy_file(to_add_copy_path, 'VC', 'InstallerPuts')
+loger.add_copy_file(to_add_copy_path, 'VC', 'InstallerPuts')
 loger.proj_obj.save
 
 

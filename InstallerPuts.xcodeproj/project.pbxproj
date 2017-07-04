@@ -8,33 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		27EE6B550F3523B5AF55C329 /* installer2.yaml in Sources */ = {isa = PBXBuildFile; fileRef = FE9AA193B318EF280F29BBD6 /* installer2.yaml */; };
-		3B3B8E1C1C0E3A45157BD0EB /* shan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2826F1AC4897AA77B245908B /* shan.png */; };
-		44B1B531517845180A8F47D4 /* shan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5411B0C305EB0F05082F1CFE /* shan.png */; };
-		5B3C82078103B333C73BE4D2 /* shan.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AF0A9E9A6BE11740516BE8 /* shan.png */; };
-		5B92D734491BE7AFF38619F9 /* installer2.yaml in Sources */ = {isa = PBXBuildFile; fileRef = 0F0176A2B46D2BC5BABDCCB7 /* installer2.yaml */; };
-		82D10D3C3E7621B4F786B5D0 /* shan.png in Resources */ = {isa = PBXBuildFile; fileRef = 49088DE7B4D6665307BD2224 /* shan.png */; };
-		99131DFE6496ADA838FD166B /* shan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ED43CBE7A6AB4E030127268 /* shan.png */; };
+		3D4B8AB6A2CE88492A01D3A7 /* shan.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D9B19FE52FE32E7FD8ACD5 /* shan.png */; };
 		9DB3847F1F068B0700F93DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3847E1F068B0700F93DD8 /* main.m */; };
 		9DB384821F068B0700F93DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB384811F068B0700F93DD8 /* AppDelegate.m */; };
 		9DB384851F068B0700F93DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB384841F068B0700F93DD8 /* ViewController.m */; };
-		9DB384881F068B0700F93DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB384861F068B0700F93DD8 /* Main.storyboard */; };
 		9DB3848A1F068B0700F93DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB384891F068B0700F93DD8 /* Assets.xcassets */; };
-		9DB3848D1F068B0700F93DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB3848B1F068B0700F93DD8 /* LaunchScreen.storyboard */; };
-		9DB384971F08D5C200F93DD8 /* shan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9EE6C95FCEA445558938C /* shan.png */; };
 		AC83F24EE149EEA4090BBC5E /* installer.yaml in Sources */ = {isa = PBXBuildFile; fileRef = A6C27C5D8125162E708CF163 /* installer.yaml */; };
 		E8AD336426A9A4F95CA92A34 /* Pods_InstallerPuts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B75BA46A842CB0BAF8405 /* Pods_InstallerPuts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F0176A2B46D2BC5BABDCCB7 /* installer2.yaml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = installer2.yaml; path = ../installer2.yaml; sourceTree = "<group>"; };
-		2826F1AC4897AA77B245908B /* shan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shan.png; path = ../shan.png; sourceTree = "<group>"; };
-		2DF9EE6C95FCEA445558938C /* shan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shan.png; path = ../shan.png; sourceTree = "<group>"; };
 		40D3CFC56E29B61C54D31B0D /* installer.methods */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = installer.methods; path = ../installer.methods; sourceTree = "<group>"; };
+		47D9B19FE52FE32E7FD8ACD5 /* shan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shan.png; path = ../shan.png; sourceTree = "<group>"; };
 		480A13BCB2721851C607F3F2 /* Pods-InstallerPuts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallerPuts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstallerPuts/Pods-InstallerPuts.debug.xcconfig"; sourceTree = "<group>"; };
-		49088DE7B4D6665307BD2224 /* shan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shan.png; path = ../shan.png; sourceTree = "<group>"; };
-		5411B0C305EB0F05082F1CFE /* shan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shan.png; path = ../shan.png; sourceTree = "<group>"; };
-		61AF0A9E9A6BE11740516BE8 /* shan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shan.png; path = ../shan.png; sourceTree = "<group>"; };
-		7ED43CBE7A6AB4E030127268 /* shan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shan.png; path = ../shan.png; sourceTree = "<group>"; };
 		873B75BA46A842CB0BAF8405 /* Pods_InstallerPuts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstallerPuts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCC12148B33A8DDBDF97B30 /* Pods-InstallerPuts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallerPuts.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstallerPuts/Pods-InstallerPuts.release.xcconfig"; sourceTree = "<group>"; };
 		9DB3847A1F068B0700F93DD8 /* InstallerPuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstallerPuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,13 +29,11 @@
 		9DB384811F068B0700F93DD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9DB384831F068B0700F93DD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9DB384841F068B0700F93DD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9DB384871F068B0700F93DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DB384891F068B0700F93DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DB3848C1F068B0700F93DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB3848E1F068B0700F93DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6C27C5D8125162E708CF163 /* installer.yaml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = installer.yaml; path = ../installer.yaml; sourceTree = "<group>"; };
 		C22C0F669B55E69F787D6F2D /* installer3.yaml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = installer3.yaml; path = ../installer3.yaml; sourceTree = "<group>"; };
-		FE9AA193B318EF280F29BBD6 /* installer2.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = installer2.yaml; path = ../installer2.yaml; sourceTree = "<group>"; };
+		FE9AA193B318EF280F29BBD6 /* installer2.yaml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = installer2.yaml; path = ../installer2.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +89,7 @@
 				9DB384801F068B0700F93DD8 /* AppDelegate.h */,
 				9DB384811F068B0700F93DD8 /* AppDelegate.m */,
 				9DB384941F0777F700F93DD8 /* VC */,
-				9DB384861F068B0700F93DD8 /* Main.storyboard */,
 				9DB384891F068B0700F93DD8 /* Assets.xcassets */,
-				9DB3848B1F068B0700F93DD8 /* LaunchScreen.storyboard */,
 				9DB3848E1F068B0700F93DD8 /* Info.plist */,
 				9DB3847D1F068B0700F93DD8 /* Supporting Files */,
 			);
@@ -130,8 +112,8 @@
 				40D3CFC56E29B61C54D31B0D /* installer.methods */,
 				A6C27C5D8125162E708CF163 /* installer.yaml */,
 				C22C0F669B55E69F787D6F2D /* installer3.yaml */,
-				2826F1AC4897AA77B245908B /* shan.png */,
 				FE9AA193B318EF280F29BBD6 /* installer2.yaml */,
+				47D9B19FE52FE32E7FD8ACD5 /* shan.png */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -198,15 +180,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB3848D1F068B0700F93DD8 /* LaunchScreen.storyboard in Resources */,
-				9DB384971F08D5C200F93DD8 /* shan.png in Resources */,
 				9DB3848A1F068B0700F93DD8 /* Assets.xcassets in Resources */,
-				9DB384881F068B0700F93DD8 /* Main.storyboard in Resources */,
-				5B3C82078103B333C73BE4D2 /* shan.png in Resources */,
-				99131DFE6496ADA838FD166B /* shan.png in Resources */,
-				44B1B531517845180A8F47D4 /* shan.png in Resources */,
-				82D10D3C3E7621B4F786B5D0 /* shan.png in Resources */,
-				3B3B8E1C1C0E3A45157BD0EB /* shan.png in Resources */,
+				3D4B8AB6A2CE88492A01D3A7 /* shan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,31 +244,11 @@
 				9DB384821F068B0700F93DD8 /* AppDelegate.m in Sources */,
 				9DB3847F1F068B0700F93DD8 /* main.m in Sources */,
 				AC83F24EE149EEA4090BBC5E /* installer.yaml in Sources */,
-				5B92D734491BE7AFF38619F9 /* installer2.yaml in Sources */,
 				27EE6B550F3523B5AF55C329 /* installer2.yaml in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9DB384861F068B0700F93DD8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DB384871F068B0700F93DD8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9DB3848B1F068B0700F93DD8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DB3848C1F068B0700F93DD8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9DB3848F1F068B0700F93DD8 /* Debug */ = {
